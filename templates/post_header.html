@@ -2,7 +2,7 @@
     <div class="h-container">
 
         <div class="h-image">
-            <img src="{{ basics.image }}" width="200" alt="{{ basics.name }}">
+            <img src="../{{ basics.image }}" width="200" alt="{{ basics.name }}">
         </div>
 
         <div class="profile">
@@ -15,13 +15,13 @@
 
         <li>
             <a href="#">
-            <img  class="icon" src="{{ basics.icon }}" width="24" alt="Website">
+            <img  class="icon" src="../{{ basics.icon }}" width="24" alt="Website">
             </a>
         </li>
         {% for contact in basics.profiles %}
         <li>
             <a href="{{ contact.url }}">
-            <img class="icon" src="{{ contact.icon }}" width="24" alt="{{ contact.network }}">
+            <img class="icon" src="../{{ contact.icon }}" width="24" alt="{{ contact.network }}">
             </a>
         </li>
         {% endfor %}

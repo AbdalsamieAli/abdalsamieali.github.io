@@ -1,0 +1,20 @@
+{% extends "post_base.html" %}
+
+{% block content %}
+<main>
+    <div class="container">
+        <ul class="posts">
+            <li>
+                <h2>{{ posts[index].title }}</h2>
+                <br>
+                <span class="date">{{ posts[index].date }}</span>
+                <br>
+                <p class="content">{{ posts[index].content }}</p>
+            </li>
+        </ul>
+    </div>
+</main>
+
+
+
+{% endblock %}

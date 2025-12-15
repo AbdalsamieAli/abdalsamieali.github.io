@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+:root {
+    color-scheme: light dark;
+    --p-color: light-dark(rgb(43, 43, 43), rgb(221, 220, 220));
+    --t-color: light-dark(black, white);
+    --container: 1024px;
+}
+
+body {
+    background-color: light-dark(whitesmoke, #161b22);
+    color: light-dark(#000, whitesmoke);
+    height: 200vh;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+ul{list-style: none}
+
+/* Header */
+
+header {
+    background-color: var(--container);
+    color: var(--t-color);
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    border-bottom: 2px solid var(--p-color);
+    
+}
+
+.h-container {
+    background-color: var(--container);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.h-container h1 {
+    margin: 0.5rem;
+}
+
+.h-container h3 {
+    color: var(--p-color);
+    margin: auto;
+}
+
+.h-image {
+    margin: 1rem;
+}
+
+.h-image img{
+    border-radius: 50%;
+    width: 250px;
+}
+
+
+.contact {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact a {
+    display: inline;
+    color: var(--t-color);
+    margin-left: 2px;
+}
+.contact a img {
+    width: 40px;
+    background: #161b22;
+}
+.contact li {
+    display: inline;
+}
+
+.icon {
+    padding: 2px;
+    margin: 0;
+    border-radius: 50%;
+    color: var(--t-color);
+}
+
+
+/* main */
+
+.container {
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em
+}
+
+.title {
+    font: bold;
+    font-size: large;
+}
+
+.date {
+    color: var(--p-color);
+    font-size: small;
+}
+
+.posts li {
+    margin-bottom: .8em;
+}
+
+@media (max-width:765px) {
+    /* Header */
+    header {
+        padding-top: 0;
+    }
+    .h-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .h-image {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1rem;
+    }
+
+    .h-image img{
+        width: 200px;
+    
+    }
+    
+
+    .profile {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile h1 {
+        margin: 0.5em auto;
+        text-align: center;
+    }
+    .profile h3 {
+        margin: 0;
+        padding: 1em;
+        font-size: .8em;
+        text-align: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .contact a img {
+        width: 24px;
+    }
+
+}

@@ -1,0 +1,29 @@
+<header>
+    <div class="h-container">
+
+        <div class="h-image">
+            <img id='image' src="{{ basics.image }}" width="200" alt="{{ basics.name }}">
+        </div>
+
+        <div class="profile">
+            <h1>{{ basics.name }}</h1>
+            <h3>{{ basics.objective }}</h3>
+        </div>
+    </div>
+
+    <ul class="contact">
+
+        <li>
+            <a href="#">
+            <img id='images' class="icon" src="{{ basics.icon }}" width="24" alt="Website">
+            </a>
+        </li>
+        {% for contact in basics.profiles %}
+        <li>
+            <a href="{{ contact.url }}">
+            <img id='image{{ loop.index }}' class="icon" src="{{ contact.icon }}" width="24" alt="{{ contact.network }}">
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</header>

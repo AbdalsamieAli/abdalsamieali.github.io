@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+    <div class="container">
+        <ul class="posts">
+            {% for post in posts %}
+            <li>
+                <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+                <br>
+                <span class="date">{{ post.date }}</span>
+                <br>
+                <p class="content">{{ post.content|truncate(320) }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</main>
+
+
+{% endblock %}

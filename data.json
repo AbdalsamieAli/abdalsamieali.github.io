@@ -35,11 +35,18 @@
         ]
     },
     "posts": [
+	{
+            "date":"2026-01-11",
+            "title": "Dynamic Models",
+            "url": "posts/no2.html",
+            "index": 1,
+            "content": "What is the first step in analyzing and designing controls for a system? Developing a mathematical model of the system to be controlled."
+	},
         {
             "date":"2025-12-15",
             "title": "Feedback Control",
             "url": "posts/no1.html",
-            "index": 1,
+            "index": 0,
             "content": "What is feedback control system? A feedback control system or close-loop control the system include a sensor to measure the output and uses feedback of the sensed value to infuence the control variable. A system that involves a person controlling a machine is called manual control. Asystems that involves machines only is called automatic control. (below is bloack diagram) <br>  <img style='margin: .2em;' src='../img/feedbacksystemblock.png' width='100%' > <h4>Block diagram of feedback control</h4> <br> If the controller does not use a measure of the system output being controlled in computing the control action to take, the system is called open-loop control(which I will discuss later).<br>  <ul style='list-style: circle;'><h4>Asimple feedback system consists of <h4> <li>The process(or plant) whose output is to be controlled.</li><li>The actuator whose output causes the process output to change. </li><li>A reference command signal.</li><li>Output sensors that measure these signals.</li><li>The controller that implements the logic by which the control signal that commands the actuator is calculated.</li> <br> A well-designed feedback control system will be stable, track a desired input or setpoint, reject disturbances, and be insensitive (or robust) to changes in the math model used for design. The theory and design techniques of control have come to be divided into two categories: classical control methods use Laplace transforms (or z-transform) and were the dominant methods for control design until modern control methods based on ODEs in state form were introduced into the field starting in the 1960s many connections have been discovered between the two categories and well-prepared engineers must be familiar with bothtechnigues. <br><br><br> <h3>References</h3><hr> <ul > <li>Feedback Control of Dynamic Systems Fanklin.Powell.Emami-Naeini</li> <li>Wikipedia</li>"
         }
     ]

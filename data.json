@@ -35,6 +35,15 @@
         ]
     },
     "posts": [
+
+        {
+            "date":"2026-01-19",
+            "title": "Openloop Control",
+            "url": "posts/no3.html",
+            "index": 3,
+            "content": "Fundamentally, there are two types of control loop: open-loop control (feedforward), and closed-loop control (feedback).<br><h4>Open loop System:<\h4> <br> An open loop control system is in witch the control action is totally independent of output of the system. "
+        },
+
 	{
             "date":"2026-01-11",
             "title": "Dynamic Models",

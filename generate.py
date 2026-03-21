@@ -2,6 +2,7 @@ import json
 from jinja2 import *
 
 
+
 env = Environment(loader=FileSystemLoader('templates'))
 template = env.get_template('index_template.html')
 

@@ -9,7 +9,7 @@
                 <br>
                 <span class="date">{{ post.date }}</span>
                 <br>
-                <p class="content">{{ post.content|truncate(320) }}</p>
+		<p class="content">{% if post.nodiscripte %}  This article explains the fundamental concepts related to the topic and discusses the key principles engineers should understand. {% else %}{{ post.content|truncate(320) }}{% endif %}</p>
             </li>
             {% endfor %}
         </ul>

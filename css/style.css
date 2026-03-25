@@ -18,7 +18,7 @@
 body {
     background-color: light-dark(whitesmoke, #161b22);
     color: light-dark(#000, whitesmoke);
-    height: 200vh;
+    height: auto;
 }
 
 h1,

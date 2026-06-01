@@ -92,7 +92,18 @@
             "index": 6,
             "content": "I recently designed a Star-Delta Motor Starter using EPLAN Electric P8, focusing on developing a practical and standards-compliant motor starting solution.<br>This project demonstrates how theoretical concepts in motor control can be translated into real-world industrial design. The system is structured to reduce inrush current during startup while ensuring safe and reliable operation.<br><br>🔧 Key elements of the design include:<br><br> • Complete power and control circuit development.<br> • Interlocking logic for safe contactor operation.<br> • Timer-based transition from star to delta configuration<br> • Integration of thermal overload protection.<br> • Clear and structured schematic documentation following IEC standards.<br><br>⚙️ Application:<br><br>This type of starter is widely used in industrial environments for motors driving pumps, compressors, and conveyor systems where controlled startup is essential.<br><br>Project Schematic <a href=\"https://github.com/AbdalsamieAli/Side-Projects/\">Here</a>"
 
+},
+
+
+{
+            "date":"2026-06-01",
+            "title": "PER-UNIT SYSTEM",
+            "url": "posts/no8.html",
+            "index": 7,
+            "content": "The per-unit system expresses any quantity relative to a defined base value. Originally developed to simplify manual power system analysis, it's still widely used today — even in computer-based studies — to present results on a consistent, system-wide basis. Common applications include power flow, short circuit evaluation, and motor starting studies.<br><br>Script calculate per unit values of system <a href=\"https://github.com/AbdalsamieAli/Algorithms/blob/14e85cba482c6758fd78f26f869cd11cad7ff5ad/per_unit.py\">Here</a>"
+
 }
+
 
     ]
 }

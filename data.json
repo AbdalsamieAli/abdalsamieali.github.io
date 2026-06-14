@@ -102,7 +102,22 @@
             "index": 7,
             "content": "The per-unit system expresses any quantity relative to a defined base value. Originally developed to simplify manual power system analysis, it's still widely used today — even in computer-based studies — to present results on a consistent, system-wide basis. Common applications include power flow, short circuit evaluation, and motor starting studies.<br><br>Script calculate per unit values of system <a href=\"https://github.com/AbdalsamieAli/Algorithms/blob/14e85cba482c6758fd78f26f869cd11cad7ff5ad/per_unit.py\">Here</a>"
 
+} ,
+
+
+{
+            "date":"2026-06-14",
+            "title": "Symmetrical Components Calculator",
+            "url": "posts/no9.html",
+            "nodiscripte": true,
+            "index": 8,
+            "css": "../css/symm_comp.css",
+            "js": "../js/symm_comp.js",
+            "content":  "<h2></h2>\n\n  <!-- System  -->\n  <div class=\"canvas-wrapper\">\n    <div class=\"controls\">\n\t\t<label>IA Magnitude: <input id=\"magIa\" type=\"number\" value=\"165\" step=\"1\"></label>\n\t\t<label>IA Angle (°): <input id=\"angleIa\" type=\"number\" value=\"46.8\" step=\"0.1\"></label>\n\t\t<div>\n\t\t\t<label>IB Magnitude: <input id=\"magIb\" type=\"number\" value=\"132\" step=\"1\"></label>\n\t\t\t<label>IB Angle (°): <input id=\"angleIb\" type=\"number\" value=\"-67\" step=\"0.1\"></label>\n\t\t</div>\n        <div>\n\t\t\t<label>IC Magnitude: <input id=\"magIc\" type=\"number\" value=\"156\" step=\"1\"></label>\n\t\t\t<label>IC Angle (°): <input id=\"angleIc\" type=\"number\" value=\"-121\" step=\"0.1\"></label>\n        </div>\n        <button class=\"btn\" id=\"drawBtn\">Calc</button>\n    </div>\n\t<br>\n    <canvas id=\"canvas1\" width=\"500\" height=\"500\"></canvas>\n  </div>\n\t<br>\n  <!-- Zero sequence -->\n  <div class=\"canvas-wrapper\">\n  <h3>Zero sequence </h3>\n    <canvas id=\"canvas2\" width=\"500\" height=\"500\"></canvas>\n  </div>\n\n  <!-- Postive sequence -->\n  <div class=\"canvas-wrapper\">\n  <h3>Postive sequence </h3>\n    <canvas id=\"canvas3\" width=\"500\" height=\"500\"></canvas>\n  </div>\n\n  <!-- Negative sequence -->\n  <div class=\"canvas-wrapper\">\n    <h3>Negative sequence </h3>\n\t<canvas id=\"canvas4\" width=\"500\" height=\"500\"></canvas>\n  </div>"
+
 }
+
+
 
 
     ]

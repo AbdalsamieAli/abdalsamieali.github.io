@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdalsamie</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+
+<link rel="stylesheet" href="../css/symm_comp.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+<style> ul { list-style: circle:} </style> 
+</head>
+
+<body>
+        <header>
+    <div class="h-container">
+
+        <div class="h-image">
+            <img src="../img/profile2.jpg" width="200" alt="Abdalsamie Ali">
+        </div>
+
+        <div class="profile">
+            <h1>Abdalsamie Ali</h1>
+            <h3>Electric Engineer | Control Engineer | Automation Engineer | Programmer </h3>
+        </div>
+    </div>
+
+    <ul class="contact">
+
+        <li>
+            <a href="https://abdalsamieali.github.io/">
+            <img  class="icon" src="../img/globe.png" width="24" alt="Website">
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://twitter.com/abdalsamieAli">
+            <img class="icon" src="../img/twitter.png" width="24" alt="Twitter">
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://linkedin.com/in/abdalsamie-a-069370344">
+            <img class="icon" src="../img/linkedin.png" width="24" alt="Linkedin">
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://github.com/AbdalsamieAli">
+            <img class="icon" src="../img/icons8-github-60.png" width="24" alt="GitHub">
+            </a>
+        </li>
+        
+    </ul>
+</header>
+
+    <main>
+        
+
+    <div class="container">
+        <ul class="posts">
+            <li>
+                <h2>Symmetrical Components Calculator</h2>
+                <br>
+                <span class="date">2026-06-14</span>
+                <br>
+                <p class="content"><h2></h2>
+
+  <!-- System  -->
+  <div class="canvas-wrapper">
+    <div class="controls">
+		<label>IA Magnitude: <input id="magIa" type="number" value="165" step="1"></label>
+		<label>IA Angle (°): <input id="angleIa" type="number" value="46.8" step="0.1"></label>
+		<div>
+			<label>IB Magnitude: <input id="magIb" type="number" value="132" step="1"></label>
+			<label>IB Angle (°): <input id="angleIb" type="number" value="-67" step="0.1"></label>
+		</div>
+        <div>
+			<label>IC Magnitude: <input id="magIc" type="number" value="156" step="1"></label>
+			<label>IC Angle (°): <input id="angleIc" type="number" value="-121" step="0.1"></label>
+        </div>
+        <button class="btn" id="drawBtn">Calc</button>
+    </div>
+	<br>
+    <canvas id="canvas1" width="500" height="500"></canvas>
+  </div>
+	<br>
+  <!-- Zero sequence -->
+  <div class="canvas-wrapper">
+  <h3>Zero sequence </h3>
+    <canvas id="canvas2" width="500" height="500"></canvas>
+  </div>
+
+  <!-- Postive sequence -->
+  <div class="canvas-wrapper">
+  <h3>Postive sequence </h3>
+    <canvas id="canvas3" width="500" height="500"></canvas>
+  </div>
+
+  <!-- Negative sequence -->
+  <div class="canvas-wrapper">
+    <h3>Negative sequence </h3>
+	<canvas id="canvas4" width="500" height="500"></canvas>
+  </div></p>
+            </li>
+        </ul>
+    </div>
+
+
+
+    </main>
+</body>
+<script src="../js/index.js"></script>
+
+
+<script src="../js/symm_comp.js"></script>
+
+
+</html>

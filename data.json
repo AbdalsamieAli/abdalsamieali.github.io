@@ -115,7 +115,30 @@
             "js": "../js/symm_comp.js",
             "content":  "<h2></h2>\n\n  <!-- System  -->\n  <div class=\"canvas-wrapper\">\n    <div class=\"controls\">\n\t\t<label>IA Magnitude: <input id=\"magIa\" type=\"number\" value=\"165\" step=\"1\"></label>\n\t\t<label>IA Angle (°): <input id=\"angleIa\" type=\"number\" value=\"46.8\" step=\"0.1\"></label>\n\t\t<div>\n\t\t\t<label>IB Magnitude: <input id=\"magIb\" type=\"number\" value=\"132\" step=\"1\"></label>\n\t\t\t<label>IB Angle (°): <input id=\"angleIb\" type=\"number\" value=\"-67\" step=\"0.1\"></label>\n\t\t</div>\n        <div>\n\t\t\t<label>IC Magnitude: <input id=\"magIc\" type=\"number\" value=\"156\" step=\"1\"></label>\n\t\t\t<label>IC Angle (°): <input id=\"angleIc\" type=\"number\" value=\"-121\" step=\"0.1\"></label>\n        </div>\n        <button class=\"btn\" id=\"drawBtn\">Calc</button>\n    </div>\n\t<br>\n    <canvas id=\"canvas1\" width=\"500\" height=\"500\"></canvas>\n  </div>\n\t<br>\n  <!-- Zero sequence -->\n  <div class=\"canvas-wrapper\">\n  <h3>Zero sequence </h3>\n    <canvas id=\"canvas2\" width=\"500\" height=\"500\"></canvas>\n  </div>\n\n  <!-- Postive sequence -->\n  <div class=\"canvas-wrapper\">\n  <h3>Postive sequence </h3>\n    <canvas id=\"canvas3\" width=\"500\" height=\"500\"></canvas>\n  </div>\n\n  <!-- Negative sequence -->\n  <div class=\"canvas-wrapper\">\n    <h3>Negative sequence </h3>\n\t<canvas id=\"canvas4\" width=\"500\" height=\"500\"></canvas>\n  </div>"
 
+}  ,
+{
+            "date":"2026-06-30",
+            "title": "Squre Root Algorithm",
+            "url": "posts/no10.html",
+            "nodiscripte": 0,
+            "index": 9,
+            "css": "",
+            "js": "",
+            "content":  "I wrote about feedback loops in this article: <a href=\"https://abdalsamieali.github.io/posts/no1.html\">here</a><br><br>While exploring the concept, I came across a practical example: finding the square root using an iterative algorithm—essentially a feedback loop. Iterative methods are common in engineering and scientific computing, as many equations lack analytical solutions. Instead, computers approximate results through repeated calculations.<br><br>To demonstrate this, I implemented the method in C.<br><br>📝 You can find the code here 👇 <a href=\"https://github.com/abdalsamieali/algorithms.git\">View Code</a>"
+
+} ,
+
+
+{
+            "date":"2026-06-30",
+            "title": "Power Factor Correction",
+            "url": "posts/no11.html",
+            "nodiscripte": 0,
+            "index": 10,
+	    "content": "While reading this amazing book <i>Fundamentals of Electric Circuits</i> by Alexander and Sadiku, I came across the topic of power factor correction. In this lesson, I learned about the formula used to determine the exact capacitance (or inductance) required to improve the power factor from its current value to the desired value.<br><br>The idea is to calculate the difference between the current reactive power and the desired reactive power, and then use the formula:<br><br>Q = V<sup>2</sup> / X<br><br>to determine the required reactance.<br><br>After understanding this concept, I decided to write a small program that calculates the desired reactance needed for power factor correction.<br><br>📝 You can find the code here 👇 <a href=\"https://github.com/abdalsamieali/algorithms.git\">View Code</a>"
+
 }
+
 
 
 

@@ -137,6 +137,17 @@
             "index": 10,
 	    "content": "While reading this amazing book <i>Fundamentals of Electric Circuits</i> by Alexander and Sadiku, I came across the topic of power factor correction. In this lesson, I learned about the formula used to determine the exact capacitance (or inductance) required to improve the power factor from its current value to the desired value.<br><br>The idea is to calculate the difference between the current reactive power and the desired reactive power, and then use the formula:<br><br>Q = V<sup>2</sup> / X<br><br>to determine the required reactance.<br><br>After understanding this concept, I decided to write a small program that calculates the desired reactance needed for power factor correction.<br><br>📝 You can find the code here 👇 <a href=\"https://github.com/abdalsamieali/algorithms.git\">View Code</a>"
 
+},
+{
+
+	    "date":"2026-07-02",
+            "title": "Hand Calculation of a Three-Line-to-Ground Fault Using the MVA Method",
+            "url": "posts/no12.html",
+            "nodiscripte": 0,
+            "index": 11,
+	    "content": "In this article, I will calculate a three-line-to-ground fault and estimate the short-circuit current using the MVA method. The MVA method is one of the simplest techniques used in power system fault analysis.<br><br>From the system below, we are going to calculate the fault current using these simple steps:<br><br><img style='margin: .2em;' src='../img/121.jpg' width='100%' > <br><br>First, calculate the fault power contribution.<br>><img style='margin: .2em;' src='../img/122.jpg' width='100%' > <br><br>Second, calculate the total MVA.<br>Note that we add them up like admittances (the reciprocal of impedance) because the MVA method works with admittance.<br>><img style='margin: .2em;' src='../img/123.jpg' width='100%' > <br><br>Finally, calculate the fault current.<br>><img style='margin: .2em;' src='../img/124.jpg' width='100%' > <br><br><b>Conclusion</b><br>The MVA method is a very simple yet powerful tool to add to your toolbox. As engineers, we love performing these calculations to make sure everything is right."
+
+
 }
 
 

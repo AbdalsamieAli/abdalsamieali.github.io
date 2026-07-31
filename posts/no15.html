@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdalsamie</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+
+<link rel="stylesheet" href="">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+<style> ul { list-style: circle:} </style> 
+</head>
+
+<body style="height:110vh;">
+        <header>
+    <div class="h-container">
+
+        <div class="h-image">
+            <img src="../img/profile2.jpg" width="200" alt="Abdalsamie Ali">
+        </div>
+
+        <div class="profile">
+            <h1>Abdalsamie Ali</h1>
+            <h3>Electric Engineer | Protection & Control Engineer | Automation Engineer | IEEE Member </h3>
+        </div>
+    </div>
+
+    <ul class="contact">
+
+        <li>
+            <a href="https://abdalsamieali.github.io/">
+            <img  class="icon" src="../img/globe.png" width="24" alt="Website">
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://twitter.com/abdalsamieAli">
+            <img class="icon" src="../img/twitter.png" width="24" alt="Twitter">
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://linkedin.com/in/abdalsamie-a-069370344">
+            <img class="icon" src="../img/linkedin.png" width="24" alt="Linkedin">
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://github.com/AbdalsamieAli">
+            <img class="icon" src="../img/icons8-github-60.png" width="24" alt="GitHub">
+            </a>
+        </li>
+        
+    </ul>
+</header>
+
+    <main>
+        
+
+    <div class="container">
+        <ul class="posts">
+            <li>
+                <h2>Synchronous Generator Reactance</h2>
+                <br>
+                <span class="date">2026-07-31</span>
+                <br>
+                <p class="content">When calculating the short circuit current for a synchronous generator, we use sub-transient synchronous reactance (X<sup>″</sup>) instead of synchronous reactance (X).<br><br>I found it confusing: what are sub-transient and transient reactance? Why are there different types of reactance in a synchronous generator?<br>When a fault occurs, the AC component of current jumps to a very large value and falls rapidly until it reaches a steady-state value. It can be divided into three periods: the sub-transient period is the first few cycles after the fault occurs and is characterized by a very large AC current that falls very rapidly. After it is over, the transient period begins, and in this period the current continues to fall at a slower rate until it reaches the steady-state current. The time after it reaches steady state is called the steady-state period, as shown in the image. <br><br><img style='margin: .2em;  max-height: 600px;' src='../img/141.jpg' width='100%' > <br> <br><br>The AC current flowing in the generator during the sub-transient period is called the sub-transient current and is denoted by I<sup>″</sup>. This current is caused by the damper windings on synchronous generators and can often be 10 times the size of the steady-state fault current.<br>Similarly, the AC current flowing in the generator during the transient period is called the transient current and is denoted by I<sup>′</sup>. It is caused by a DC component of current induced in the field circuit at the time of the short circuit. The transient period lasts much longer than the sub-transient period and is often as much as 5 times the steady-state fault current.<br>After the transient period, the fault current reaches a steady-state condition. The steady-state current during a fault is denoted by I<sub>ss</sub>.<br><br>It is customary to define sub-transient and transient reactances for a synchronous machine as a convenient way to describe the sub-transient and transient components of fault current.<br><br>1. The sub-transient state (X<sup>″</sup>) is the one the generator enters immediately after the fault (short circuit). In this state, the armature flux is pushed completely out of the rotor. The state is very brief, as the current in the damper winding quickly decays, allowing the armature flux to enter the rotor poles only. The generator then goes into the transient state.<br>2. In the transient state (X<sup>′</sup>), the flux is still out of the field winding of the rotor. The transient state decays to steady-state in a few cycles.<br><br>The sub-transient (X<sup>″</sup>) and transient (X<sup>′</sup>) states are characterized by significantly smaller reactances. For the purposes of sizing protective equipment, the sub-transient current and the transient current are the maximum values that the respective currents take on. We use sub-transient reactance (X<sup>″</sup>) for calculating short-circuit currents, as it determines the initial fault current during the first cycles of a fault condition (the high initial fault currents right after the disturbance).<br><br><br> <h3>References</h3><hr> <ul style='list-style-type: circle; margin: 2em;'> <li>Electric Machinery Fundmentals by Stephen J. Chapman </li> <li><a href="https://en.wikipedia.org/wiki/Reactances_of_synchronous_machines">Wikipedia</a></li></p>
+            </li>
+        </ul>
+    </div>
+
+
+
+    </main>
+</body>
+<script src="../js/index.js"></script>
+
+
+<script src=""></script>
+
+
+</html>

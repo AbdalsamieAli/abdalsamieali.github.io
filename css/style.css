@@ -182,13 +182,15 @@ header {
 
 /*post table */
 table {
+	    /*table-layout: fixed;*/
             border-collapse: collapse;
-            width: 100%;
+	    width: 100%;
+            max-width: 100%;
             font-family: Arial, sans-serif;
         }
         th {
             background-color: #2c3e50;
-            color: var(--p-color);
+            color: whitesmoke;
             text-align: left;
             padding: 12px;
         }
@@ -200,13 +202,19 @@ table {
             background-color: #A9A9A9;
         }
 
-      /*  tr:hover {
+	td, th {
+    	    word-wrap: break-word;  
+    	    overflow-wrap: break-word;
+	}
+
+
+	      /*  tr:hover {
             background-color: #e8f4f8;
         }  */
 
         .code {
             font-weight: bold;
-            color: #2c3e50;
+            color:  #2c3e50;
         }
         .title {
             color: #34495e;

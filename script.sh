@@ -2,7 +2,7 @@
 
 read -p 'Enter Post number/s: ' num
 
-$(python generate.py | for i in $num ;do python postsgenerate.py $i ;done)
+$(python generate.py | for ((i=0; i <= $num; i++)) ;do python postsgenerate.py $i ;done)
 echo 'Done'
 
 echo 'The server is starting...' 

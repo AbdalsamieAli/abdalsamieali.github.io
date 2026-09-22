@@ -7,4 +7,8 @@ read -p 'commit massige/s: ' co
 
 git commit -m "$co"
 
-git push origin main
+
+read -p 'Ready to push/s: ' pu
+if [ pu ]; then
+    git push origin main
+fi

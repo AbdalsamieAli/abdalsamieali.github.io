@@ -9,6 +9,6 @@ git commit -m "$co"
 
 
 read -p 'Ready to push/s: ' pu
-if [ pu==1 ]; then
+if (( pu==1 )); then
     git push origin main
 fi

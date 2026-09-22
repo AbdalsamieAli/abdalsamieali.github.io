@@ -17,20 +17,20 @@
             {
                 "network": "Twitter",
                 "username": "Abdalsamie Ali",
-                "url": "https://twitter.com/abdalsamieAli",
-                "icon": "img/twitter.png"
+                "url": "https://x.com/abdalsamieali",
+                "icon": "img/x-twitter-brands-solid.png"
             },
             {
                 "network": "Linkedin",
                 "username": "Abdalsamie",
                 "url": "https://linkedin.com/in/abdalsamie-a-069370344",
-                "icon": "img/linkedin.png"
+                "icon": "img/linkedin-brands-solid.png"
             },
             {
                 "network": "GitHub",
                 "username": "Abdalsamie",
                 "url": "https://github.com/AbdalsamieAli",
-                "icon": "img/icons8-github-60.png"
+                "icon": "img/github-brands-solid.png"
             }
         ]
     },

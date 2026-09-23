@@ -139,6 +139,50 @@ header {
     margin-bottom: .8em;
 }
 
+/* =========================
+   Pagination
+   ========================= */
+
+.pagination {
+
+        margin-top: 35px;
+        margin-bottom: 55px;
+        font-size: 1rem;
+}
+
+.newer, .older {
+    color: var(--link-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+}
+
+.disabled {
+
+    text-decoration: none;
+}
+
+
+/* =========================
+   Copyright Footer
+   ========================= */
+
+.site-footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 25px 20px 30px;
+    box-sizing: border-box;
+}
+
+.site-footer p {
+    margin: 0;
+    color: var(--t-color);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+}
+
+
 @media (max-width:765px) {
     /* Header */
     header {
@@ -210,50 +254,6 @@ header {
 }
 
 
-/* =========================
-   Pagination
-   ========================= */
-
-.pagination {
-
-        margin-top: 35px;
-        margin-bottom: 55px;
-        font-size: 1rem;
-}
-
-.newer, .older {
-    color: var(--link-color);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 0.2em;
-}
-
-.disabled {
-
-    text-decoration: none;
-}
-
-
-/* =========================
-   Copyright Footer
-   ========================= */
-
-.site-footer {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    padding: 25px 20px 30px;
-    box-sizing: border-box;
-}
-
-.site-footer p {
-    margin: 0;
-    color: #f0f0f0;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    letter-spacing: 0.3px;
-}
-
-
 
 /*post table */
 table {
@@ -269,15 +269,15 @@ table {
             text-align: left;
             padding: 12px;
         }
-        td {
+td {
             border: 1px solid #ddd;
             padding: 10px;
         }
-        tr:nth-child(even) {
+tr:nth-child(even) {
             background-color: #A9A9A9;
         }
 
-	td, th {
+td, th {
     	    word-wrap: break-word;  
     	    overflow-wrap: break-word;
 	}
@@ -287,10 +287,10 @@ table {
             background-color: #e8f4f8;
         }  */
 
-        .code {
+table .code {
             font-weight: bold;
             color:  #2c3e50;
         }
-        .title {
+table .title {
             color: #34495e;
         }

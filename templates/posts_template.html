@@ -18,8 +18,17 @@
                 <p class="content">{{ posts[index].content }}</p>
             </li>
         </ul>
-    </div>
+    
+    {% if posts[index].references %}
+    <br><br><br><h3>References</h3><br><hr> 
+    <ul style='list-style-type: circle; margin: 1em;'> 
+        {% for rf in posts[index].references  %}
+	    <li> {{ rf }} </li>
+	{% endfor %}
+    </ul>
+    {% endif %}
 
+    </div>
 
 {% endblock %}
 

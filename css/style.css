@@ -1,3 +1,7 @@
+/* @import url("buttons.css"); */
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -12,6 +16,7 @@
     color-scheme: light dark;
     --p-color: light-dark(rgb(43, 43, 43), rgb(221, 220, 220));
     --t-color: light-dark(black, white);
+    --link-color: #2B3E55;
     --container: 1024px;
 }
 
@@ -116,6 +121,13 @@ header {
 .title {
     font: bold;
     font-size: large;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.content {
+    color: var(--t-color);
+    text-decoration: none;
 }
 
 .date {
@@ -177,8 +189,71 @@ header {
     .contact a img {
         width: 24px;
     }
+/* =========================
+   Pagination
+   ========================= */
 
+    .pagination {
+        margin-top: 35px;
+        margin-bottom: 55px;
+        font-size: 1rem;
+    }
+
+
+    .site-footer {
+        padding: 20px 15px 25px;
+    }
+
+    .site-footer p {
+        font-size: 0.85rem;
+    }
 }
+
+
+/* =========================
+   Pagination
+   ========================= */
+
+.pagination {
+
+        margin-top: 35px;
+        margin-bottom: 55px;
+        font-size: 1rem;
+}
+
+.newer, .older {
+    color: var(--link-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+}
+
+.disabled {
+
+    text-decoration: none;
+}
+
+
+/* =========================
+   Copyright Footer
+   ========================= */
+
+.site-footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 25px 20px 30px;
+    box-sizing: border-box;
+}
+
+.site-footer p {
+    margin: 0;
+    color: #f0f0f0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+}
+
+
 
 /*post table */
 table {

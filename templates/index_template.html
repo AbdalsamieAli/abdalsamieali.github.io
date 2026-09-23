@@ -3,18 +3,40 @@
 {% block content %}
     <div class="container">
         <ul class="posts">
-            {% for post in posts|reverse %}
+            {% for post in posts %}
             <li>
                 <a class="title" href="{{ post.url }}">{{ post.title }}</a>
                 <br>
                 <span class="date">{{ post.date }}</span>
                 <br>
-		<p class="content">{% if post.nodiscripte %}  This article explains the fundamental concepts related to the topic and discusses the key principles engineers should understand. {% else %}{{ post.content|truncate(320) }}{% endif %}</p>
+		<a  class="content" href="{{ post.url }}">{% if post.nodiscripte %}  This article explains the fundamental concepts related to the topic and discusses the key principles engineers should understand. {% else %}{{ post.content|truncate(320) }}{% endif %}</a>
             </li>
             {% endfor %}
         </ul>
+
+
+    
+    <div class="pagination">
+
+        {% if not page_obj.has_previous %}
+        <span class="newer disabled">Newer</span>
+        {% endif %}
+
+        {% if page_obj.has_previous %}
+        <a href="{{ page_obj.previous_page }}" class="newer">Newer</a>
+        {% endif %}
+
+
+        {% if page_obj.has_next %}
+        <a href="{{ page_obj.next_page }}" class="older">Older</a>
+        {% endif %}
+
+        {% if not page_obj.has_next %}
+        <span class="older disabled">Older</span>
+        {% endif %}
+
     </div>
-
-
+    
+</div>
 
 {% endblock %}

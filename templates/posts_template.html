@@ -18,6 +18,25 @@
                 <p class="post_content">{{ posts[index].content }}</p>
             </li>
         </ul>
+
+
+    {% if posts[index].Recommendations %}
+	<ul class="posts">
+		<br><br><br>
+		<h3>Related Posts </h3><br>
+		<dev class="related_posts">
+            {% for i in  posts[index].Recommendations %}
+            <li class="padd">
+                <a class="title" href="{{ posts[i].url }}">{{ posts[i].title }}</a>
+                <br>
+		<a  class="content" href="{{ posts[i].url }}">{% if posts[i].nodiscripte %}  this article explains the fundamental concepts related to the topic and discusses the key principles engineers should understand. {% else %}{{ posts[i].content|truncate(100) }}{% endif %}</a>
+            </li>
+            {% endfor %}
+        	</dev>
+        </ul>
+
+    {% endif %}
+
     
     {% if posts[index].references %}
     <br><br><br><h3>References</h3><br><hr> 

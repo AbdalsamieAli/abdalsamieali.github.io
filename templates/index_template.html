@@ -9,7 +9,7 @@
                 <br>
                 <span class="date">{{ post.date }}</span>
                 <br>
-		<a  class="content" href="{{ post.url }}">{% if post.nodiscripte %}  This article explains the fundamental concepts related to the topic and discusses the key principles engineers should understand. {% else %}{{ post.content|truncate(320) }}{% endif %}</a>
+		<a  class="content" href="{{ post.url }}">{% if post.nodiscripte %}  this article explains the fundamental concepts related to the topic and discusses the key principles engineers should understand. {% else %}{{ post.content|truncate(320) }}{% endif %}</a>
             </li>
             {% endfor %}
         </ul>

@@ -115,7 +115,7 @@ header {
     max-width: var(--container);
     margin-left: auto;
     margin-right: auto;
-    padding: 1em
+    padding: 1rem
 }
 
 .title {
@@ -135,8 +135,19 @@ header {
     font-size: small;
 }
 
-.posts li {
+.posts li, .related_posts li {
     margin-bottom: .8em;
+}
+
+.related_posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8 rem;
+}
+
+.padd {
+    
+    padding: 0.5em;
 }
 
 /* =========================

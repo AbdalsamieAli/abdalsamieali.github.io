@@ -122,11 +122,11 @@ header {
     font: bold;
     font-size: large;
     text-decoration: none;
-    color: var(--link-color);
+    color: var(--p-color);
 }
 
 .content {
-    color: var(--t-color);
+    color: gray;
     text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ header {
 }
 
 .newer, .older {
-    color: var(--link-color);
+    color: var(--p-color);
     text-decoration-thickness: 2px;
     text-underline-offset: 0.2em;
 }

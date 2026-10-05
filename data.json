@@ -287,14 +287,14 @@
 	}, {
 
 	
-	    "date":"2026-09-20",
+	    "date":"2026-10-03",
             "title": "Optical Voltage And Current Transformer",
             "url": "/posts/no22.html",
             "nodiscripte": 0,
             "index": 21,
     "content":  "Traditional voltage and current transformer imply electromagnetic induction principle to stepdown the high voltage or current to lower secondary four measurement and protection. Optical Current Transformers (OCTs) and Optical Voltage Transformers (OVTs) are an alternative to the conventional transformers because they use light instead of magnetic fields to measure current, which means they're completely immune to electromagnetic interference and don't risk the saturation issues that conventional iron cores face. This technology also eliminates the danger of high-voltage exposure in the secondary circuit during a fault.<br>They both imply the electro–optic effect witch is a change in the optical properties of a material in response to an electric field that varies slowly compared with the frequency of light. <br><br>    • An Optical Current Transformers (OCTs) is a sensor that uses the Faraday effect in an optical medium to measure current by detecting the rotation of polarized light.<br><br><img style='margin: .2em;  max-height: 600px;' src='../img/221.jpg' width='100%' ><br><br>    • An Optical Voltage Transformers (OVTs) measures high voltage by applying the Pockels or Kerr effect in a crystal, where the electric field changes the properties of the light passing through it.<br>",
             "references": ["<a href=\"https://en.wikipedia.org/wiki/Electro–optic_effect\">Wikipedia - Electro–optic effect</a>", "<a href=\"https://en.wikipedia.org/wiki/Pockels_effect\">Wikipedia - Pockels effect</a>", "<a href=\"https://en.wikipedia.org/wiki/Faraday_effect\">Wikipedia - Faraday effect</a>"],
-	    "Recommendations": [12, 16, 10, 14]
+	    "Recommendations": [12, 16, 10,15, 14]
 
 	}
 

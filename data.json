@@ -296,6 +296,17 @@
             "references": ["<a href=\"https://en.wikipedia.org/wiki/Electro–optic_effect\">Wikipedia - Electro–optic effect</a>", "<a href=\"https://en.wikipedia.org/wiki/Pockels_effect\">Wikipedia - Pockels effect</a>", "<a href=\"https://en.wikipedia.org/wiki/Faraday_effect\">Wikipedia - Faraday effect</a>"],
 	    "Recommendations": [12, 16, 10,15, 14]
 
+	}, {
+
+	
+	    "date":"2026-10-12",
+            "title": "What tests must be performed on voltage transformers (VTs) before putting them into service?",
+            "url": "/posts/no23.html",
+            "nodiscripte": 0,
+            "index": 22,
+    "content":  "Regular maintenance and testing is very important in order to ensure that the protection system will perform as intended . This the difference tests that should be done to voltage or potential transformer before putting them into service?<br><br>1. Insolation Resistance Test (IR test)<br>Checks the insulation between the primary and secondary windings, and between windings and ground, using a high-voltage tester (Megger).<br><br>2. Winding Resistance Test <br>The CPC 100 injects a stable DC current through the winding and measures the resulting DC voltage drop across it. The resistance is then calculated internally.<br><br>3. Polarity Test <br>Confirms the primary and secondary windings have the correct relative polarity to ensure protection relays operate correctly.<br><br>4. Ratio Test <br>Applies a known voltage to the primary and measures the secondary output to verify the turns ratio.<br><br>5. Burden Test <br>Measures the actual connected load to ensure it remains within the VT's rated capacity, preventing accuracy errors.<br><br>",
+	    "Recommendations": [21, 12, 16, 15]
+
 	}
 
 

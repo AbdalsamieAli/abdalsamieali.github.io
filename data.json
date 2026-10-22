@@ -304,8 +304,19 @@
             "url": "/posts/no23.html",
             "nodiscripte": 0,
             "index": 22,
-    "content":  "Regular maintenance and testing is very important in order to ensure that the protection system will perform as intended . This is the different tests that should be done to voltage or potential transformer before putting them into service?<br><br>1. Insolation Resistance Test (IR test)<br>Checks the insulation between the primary and secondary windings, and between windings and ground, using a high-voltage tester (Megger).<br><br>2. Winding Resistance Test <br>The CPC 100 injects a stable DC current through the winding and measures the resulting DC voltage drop across it. The resistance is then calculated internally.<br><br>3. Polarity Test <br>Confirms the primary and secondary windings have the correct relative polarity to ensure protection relays operate correctly.<br><br>4. Ratio Test <br>Applies a known voltage to the primary and measures the secondary output to verify the turns ratio.<br><br>5. Burden Test <br>Measures the actual connected load to ensure it remains within the VT's rated capacity, preventing accuracy errors.<br><br>",
+    "content":  "Regular maintenance and testing is very important in order to ensure that the protection system will perform as intended . This is the different tests that should be done to voltage or potential transformer before putting them into service?<br><br>1. Insolation Resistance Test (IR test)<br>Checks the insulation between the primary and secondary windings, and between windings and ground, using a high-voltage tester (Megger).<br><br><img style='margin: .2em; max-height: 600px;' src='../img/241.png' width='100%'><br><br>2. Winding Resistance Test <br>The CPC 100 injects a stable DC current through the winding and measures the resulting DC voltage drop across it. The resistance is then calculated internally.<br><br>3. Polarity Test <br>Confirms the primary and secondary windings have the correct relative polarity to ensure protection relays operate correctly.<br><br>4. Ratio Test <br>Applies a known voltage to the primary and measures the secondary output to verify the turns ratio.<br><br>5. Burden Test <br>Measures the actual connected load to ensure it remains within the VT's rated capacity, preventing accuracy errors.<br><br>",
 	    "Recommendations": [21, 12, 16, 15]
+
+	}, {
+
+	
+	    "date":"2026-10-22",
+            "title": "What tests must be performed on current transformers (CTs) before putting them into service?",
+            "url": "/posts/no24.html",
+            "nodiscripte": 1,
+            "index": 23,
+            "content":	"1. Insolation Resistance Test (IR Test) <br>Checks the insulation between the primary and secondary windings, and between windings, and between windings and ground, using a high-voltage tester (Megger).<br><br><img style='margin: .2em; max-height: 600px;' src='../img/241.png' width='100%'><br><br>2. Winding Resistance Test <br>Measure the resistance of a current transformer secondary winding.<br><br><img style='margin: .2em; max-height: 600px;' src='../img/242.png' width='100%'><br><br>3. CT Ratio Test<br>Injects a known current on the primary and measures the secondary current to verify the transformation ratio and phase displacement.<br><br><img style='margin: .2em; max-height: 600px;' src='../img/243.png' width='100%'><br><br>4. Polarity Test<br>Verifies the correct orientation of primary (P1/P2) and secondary (S1/S2) terminals.<br><br><img style='margin: .2em; max-height: 600px;' src='../img/244.png' width='100%'><br><br>5. Burden Test<br>Measures the total impedance (load) on the secondary circuit to ensure it does not exceed the CT rated burden.<br><br><img style='margin: .2em; max-height: 600px;' src='../img/245.png' width='100%'><br><br>6. CT Excitaton and Knee Point Test<br>Establishes the excitation curve and knee point to verify the CT can handle high fault currents without distorting the signal.<br><br><img style='margin: .2em; max-height: 600px;' src='../img/246.png' width='100%'><br>",
+	    "Recommendations": [22, 21, 12, 16, 15]
 
 	}
 

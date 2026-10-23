@@ -125,6 +125,10 @@ header {
     color: var(--p-color);
 }
 
+.no_style {
+    all: unset;
+}
+
 .content {
     color: gray;
     text-decoration: none;

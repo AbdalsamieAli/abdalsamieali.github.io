@@ -1,14 +1,20 @@
-{% extends "base.html" %}
+	{% extends "base.html" %}
 
-{% block content %}
-    <div class="container">
-        <ul class="posts">
-            {% for post in posts %}
-            <li>
-                <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+	{% block content %}
+	    <div class="container">
+		<ul class="posts">
+		    {% for post in posts %}
+		    <li>
+				    <a class="title" href="{{ post.url }}">
+
+			    <title class="no_style">
+					    {{ post.title }}
+			    </title></a>
                 <br>
                 <span class="date">{{ post.date }}</span>
                 <br>
+		<meta name="description" content="{% if post.nodiscripte %}  this article explains the fundamental concepts related to the topic and discusses the key principles engineers should understand. {% else %}{{ post.content|truncate(320) }}{% endif %}">
+
 		<a  class="content" href="{{ post.url }}">{% if post.nodiscripte %}  this article explains the fundamental concepts related to the topic and discusses the key principles engineers should understand. {% else %}{{ post.content|truncate(320) }}{% endif %}</a>
             </li>
             {% endfor %}

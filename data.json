@@ -321,21 +321,24 @@
 	}, {
 	
 	    "date":"2026-10-25",
-            "title": "IEC Standard Accuracy Classes",
+            "title": "IEC Standard Accuracy Classes Of CTs",
             "url": "/posts/no25.html",
             "nodiscripte": 1,
             "index": 24,
-            "content":	"<br>The IEC specifies the accuracy of CTs as<br>30 VA Class 5 P 20<br><br>• Rated Burden (30 VA)<br>• Accuracy class (5%)<br><br>• P For protection<br>• Accuracy limit factor (20)<br><br><img style='margin: .2em;  max-height: 600px;' src='../img/251.jpg' width='100%' ><br>",
-	    "Recommendations": [12, 16, 10,15, 22]
+            "content":	"<br>The IEC specifies the accuracy of CTs as<br><br>30 VA Class 5 P 20<br><br> • Rated Burden (30 VA)<br> • Accuracy class (5%)<br> • P For protection<br> • Accuracy limit factor (20)<br><br><img style='margin: .2em;  max-height: 600px;' src='../img/251.jpg' width='100%' ><br>",
+	    "Recommendations": [23, 22, 21, 12, 17]
 
 	}, {
 	
 	    "date":"2026-11-5",
             "title": "Electrical Circuit Analysis & Filter Design Using LTspice",
             "url": "/posts/no26.html",
-            "nodiscripte": 0,
+            "nodiscripte": 1,
             "index": 25,
-            "content":	"I’m pleased to share one of my practical projects: a collection of electrical circuit simulations and filter designs performed using LTspice.<br><br>The project focuses on understanding circuit behavior, analyzing transient responses, and exploring the frequency response of different filter configurations.<br><br>🔹 Circuit Analysis<br><br>- First-order DC RC circuits.<br>- Second-order DC series RLC circuits.<br>- Second-order DC parallel RLC circuits.<br><br>🔹 Passive Filter Design<br><br>- RC Low-Pass Filter.<br>- RC High-Pass Filter.<br>- RLC Band-Pass Filter.<br><br>🔹 Active Filter Design<br><br>- First-order Active Low-Pass Filter.<br>- First-order Active High-Pass Filter.<br>- Active Band-Pass Filter.<br><br>🎯 Project Objectives<br><br>- Analyze voltage and current responses.<br>- Understand transient and steady-state behavior.<br>- Investigate filter frequency responses using Bode plots.<br>- Verify theoretical calculations through simulation.<br>- Strengthen practical skills in electrical circuit analysis.<br><br>Through this project, I aimed to connect theoretical concepts from electrical circuit theory with practical simulation results.<br><br>🔗 Explore the project on GitHub:<br>https://github.com/AbdalsamieAli/LTSpice-CircuitAnalysis<br>"
+            "content":	"I’m pleased to share one of my practical projects: a collection of electrical circuit simulations and filter designs performed using LTspice.<br><br>The project focuses on understanding circuit behavior, analyzing transient responses, and exploring the frequency response of different filter configurations.<br><br>🔹 Circuit Analysis<br><br>- First-order DC RC circuits.<br>- Second-order DC series RLC circuits.<br>- Second-order DC parallel RLC circuits.<br><br>🔹 Passive Filter Design<br><br>- RC Low-Pass Filter.<br>- RC High-Pass Filter.<br>- RLC Band-Pass Filter.<br><br>🔹 Active Filter Design<br><br>- First-order Active Low-Pass Filter.<br>- First-order Active High-Pass Filter.<br>- Active Band-Pass Filter.<br><br>🎯 Project Objectives<br><br>- Analyze voltage and current responses.<br>- Understand transient and steady-state behavior.<br>- Investigate filter frequency responses using Bode plots.<br>- Verify theoretical calculations through simulation.<br>- Strengthen practical skills in electrical circuit analysis.<br><br>Through this project, I aimed to connect theoretical concepts from electrical circuit theory with practical simulation results.<br><br>🔗 Explore the project on GitHub:<br><a href=\"https://github.com/AbdalsamieAli/LTSpice-CircuitAnalysis\">Electrical Circuit Analysis & Filter Design Using LTspice</a><br>",
+
+	    "Recommendations": [3, 17, 6, 8, 0]
+
 	}
 
     ]

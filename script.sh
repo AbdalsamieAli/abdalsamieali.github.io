@@ -1,8 +1,9 @@
 #!/bin/bash
 
-read -p 'Enter Post number/s: ' num
+read -p 'Enter Post number Start Index/s: ' st
+read -p 'End Index/s: ' en
 
-$(python generate.py | for ((i=0; i <= $num; i++)) ;do python postsgenerate.py $i ;done)
+$(python generate.py | for ((i=$st; i <= $en; i++)) ;do python postsgenerate.py $i ;done)
 echo 'Done'
 
 echo 'The server is starting...' 
